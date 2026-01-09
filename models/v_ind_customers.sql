@@ -1,0 +1,1 @@
+select * from DEV.DEV_SCHEMA.customer
