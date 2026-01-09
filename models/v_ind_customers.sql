@@ -1,1 +1,1 @@
-select * from customer where c_nationkey='14'
+select * from DEV.DEV_SCHEMA.customer
