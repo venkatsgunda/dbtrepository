@@ -4,5 +4,5 @@ sources:
 
     schema: sales
     tables:
-      - name: customers
+      - name: customer
       - name: nation
