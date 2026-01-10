@@ -1,0 +1,8 @@
+sources:
+  - name: s1
+    database: dev
+
+    schema: sales
+    tables:
+      - name: customers
+      - name: nation
