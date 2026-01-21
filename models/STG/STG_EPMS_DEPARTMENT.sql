@@ -1,0 +1,1 @@
+{{stg_generic('RAW_EPMS_DEPARTMENT',['ID','CLIENT_NAME','CLIENT_REGION'])}}

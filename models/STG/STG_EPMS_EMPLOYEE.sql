@@ -1,0 +1,1 @@
+{{stg_generic('RAW_EPMS_EMPLOYEE',['ID','CLIENT_NAME','CLIENT_REGION'])}}
