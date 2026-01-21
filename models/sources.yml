@@ -1,0 +1,35 @@
+version: 2
+
+sources:
+  - name: s1
+    database: dev
+
+    schema: sales
+    tables:
+      - name: customer
+      - name: nation
+
+
+  - name: RAW
+    database: DEV_DB
+
+    schema: EDP_RAW
+    tables:
+      - name: EPMS_EMPLOYEE
+        columns: 
+        - name: ID
+        - name: EMPLOYEE_NAME
+        - name: DATE_OF_BIRTH
+        - name: ROW_STATUS_IND
+        - name: CLIENT_NAME
+        - name: CLIENT_REGION
+      - name: EPMS_DEPARTMENT
+        columns: 
+        - name: ID
+        - name: DEPARTMENT_NAME
+        - name: EMPLOYEE_ID
+        - name: DATE_OF_BIRTH
+        - name: ROW_STATUS_IND
+        - name: CLIENT_NAME
+        - name: CLIENT_REGION
+

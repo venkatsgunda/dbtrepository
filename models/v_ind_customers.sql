@@ -1,1 +1,1 @@
-select * from DEV.DEV_SCHEMA.customer
+select * from DEV.sales.customer
